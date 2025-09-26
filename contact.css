@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+
+
+
+}
+
+.navbar h1 {
+    color: skyblue;
+    letter-spacing: 2px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 780px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: skyblue;
+}
+
+.navbar button {
+    color: black;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.contact {
+    color: white;
+    background-color: black;
+
+
+}
+
+.contact h1 {
+    font-size: 50px;
+    /* margin-top:100px; */
+
+    margin-left: 550px;
+    padding-bottom: 20px;
+}
+
+.contact span {
+    color: skyblue;
+
+
+}
+
+.contact p {
+    font-size: 20px;
+    margin-left: 350px;
+
+}
+
+.contact .c1 {
+    margin-left: 530px;
+    line-height: 1.3;
+}
+
+.personal-info {
+    border: 1px solid gray;
+    height: 550px;
+    width: 600px;
+    margin-left: 10px;
+    margin-top: 80px;
+    border-radius: 10px;
+
+}
+
+.personal-info h3 {
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.personal-info p {
+    color: gray;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.personal-info .row-1 {
+    margin-left: 30px;
+    display: flex;
+    gap: 10px;
+    color: white;
+
+
+}
+
+.personal-info label {
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+.personal-info input {
+    border: 1px solid gray;
+
+
+    width: 250px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.personal-info .row-2 {
+    margin-left: 30px;
+    display: flex;
+    gap: 10px;
+    color: white;
+    margin-top: 15px;
+
+
+}
+
+.personal-info label {
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+.personal-info input {
+    border: 1px solid gray;
+    background-color: black;
+
+    width: 250px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.personal-info select {
+    height: 30px;
+    width: 250px;
+    border-radius: 4px;
+    background-color: black;
+}
+
+.personal-info .tour select {
+    margin-top: 5px;
+    margin-left: 9px;
+}
+
+.personal-info .sub {
+    margin-left: 27px;
+    margin-top: 13px;
+
+}
+
+.personal-info .sub input {
+    width: 520px;
+    margin-top: 6px;
+}
+
+.personal-info .msg {
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+.personal-info textarea {
+    width: 520px;
+    height: 80px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.personal-info input::placeholder {
+    font-size: 13px;
+    color: rgb(232, 222, 222);
+}
+
+.personal-info input:hover {
+    border: 1px solid skyblue;
+}
+
+.personal-info select:hover,
+textarea:hover {
+    border: 1px solid skyblue;
+}
+
+.personal-info textarea::placeholder {
+    font-size: 13px;
+    margin-top: 30px;
+    color: rgb(232, 222, 222);
+}
+
+.tour select {
+    cursor: pointer;
+}
+
+.personal-info button {
+    width: 350px;
+    height: 45px;
+    border-radius: 8px;
+    background: linear-gradient(skyblue, violet);
+    color: black;
+    margin-left: 120px;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.details {
+    width: 600px;
+    height: 550px;
+    border: 1px solid gray;
+    margin-top: 80px;
+
+
+}
+
+
+.together {
+    display: flex;
+    gap: 36px;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: black;
+}
+
+.personal-info,
+.details {
+    background: #0f0f0f;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 520px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.details h1 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.details p {
+    font-size: 20px;
+    color: gray;
+    margin-left: 30px;
+    padding-top: 10px;
+    line-height: 1.2;
+}
+
+.details .info-1 {
+    display: flex;
+    gap: 50px;
+
+}
+
+.details .location {
+    border: 1px solid gray;
+    width: 225px;
+    height: 130px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.details .location h4,
+.details .phone h4,
+.details .email-address h4,
+.details .business h4 {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 16px;
+}
+
+.details .location p,
+.details .email-address p,
+.details .business p {
+    margin-left: 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.details .location .fa-solid,
+.details .phone .fa-solid,
+.details .email-address .fa-solid,
+.details .business .fa-regular {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.details .location .icon-1,
+.details .phone .icon-2,
+.details .email-address .icon-3,
+.details .business .icon-4 {
+    display: flex;
+}
+
+
+.details .phone {
+    border: 1px solid gray;
+    width: 225px;
+    height: 130px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.details .phone p {
+    margin-left: 40px;
+    color: white;
+    font-size: 18px;
+    line-height: 0.5;
+    margin-top: 3px;
+}
+
+.details .location:hover,
+.details .phone:hover,
+.details .email-address:hover,
+.details .business:hover {
+    border: 1px solid skyblue;
+}
+
+.details .info-2 {
+    display: flex;
+    gap: 50px;
+}
+
+
+.details .email-address {
+    border: 1px solid gray;
+    height: 130px;
+    width: 225px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+
+
+
+.details .email-address p {
+    line-height: 0.7;
+}
+
+.details .business {
+    border: 1px solid gray;
+    width: 225px;
+    height: 130px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.details .business p {
+    font-size: 17px;
+    line-height: 0.9;
+}
+
+.details .emergency {
+    width: 515px;
+    height: 110px;
+    background-color: rgba(255, 0, 0, 0.2);
+    color: white;
+    border-radius: 10px;
+
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+.details .emergency .icon-5 {
+    display: flex;
+}
+
+.details .emergency .fa-solid {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.details .emergency h4 {
+    margin-top: 20px;
+    font-size: 22px;
+    color: red;
+}
+
+.details .emergency p {
+    color: white;
+    font-size: 18px;
+}
+
+.footer {
+
+    background-color: black;
+    width: 1293px;
+    /* full width instead of fixed px */
+    height: 90px;
+    position: absolute;
+
+    display: flex;
+    justify-content: space-between;
+    /* space between left & right content */
+    align-items: center;
+    /* vertically center items */
+    padding: 0 40px;
+    /* space from edges */
+}
+
+.footer p {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    /* remove default margin */
+}
+
+.footer-copy {
+    display: flex;
+    /* make it a flex container */
+    gap: 20px;
+    /* gap between items */
+}

@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: black;
+    color: white;
+
+
+
+}
+
+.navbar h1 {
+    color: skyblue;
+    letter-spacing: 2px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 780px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: skyblue;
+}
+
+.navbar button {
+    color: black;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+.space h1{
+        margin-top: 80px;
+        margin-left: 550px;
+        font-size: 60px;
+         margin-bottom: 25px;     
+}
+
+.space span{
+    color: skyblue;
+    font-size: 60px;
+    padding-top: 40px;
+}
+
+.space p{
+    font-size: 20px;
+    margin-left: 450px; 
+}
+
+.space .para{
+    margin-left: 500px;
+}
+
+.all-btn{
+    margin-left: 300px;
+    gap: 18px;
+    font-size: 20px;
+    margin-top: 80px;
+    display: flex;
+}
+.all-btn button{
+         font-size: 20px;
+         border: 1px solid gray;
+         border-radius: 8px;
+         height: 50px;
+         width: 200px;
+         
+         color: white;
+}
+
+.all-btn button:hover{
+    background: linear-gradient(skyblue,violet);
+    color: black;
+    cursor: pointer;
+}
+
+/* all tours */
+
+.all-tour-1{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    gap: 15px;
+
+}
+.plan-1{
+    border: 1px solid gray;
+    width: 400px;
+    height: 625px;
+    margin-top: 100px;
+    border-radius: 7px;
+}
+
+.plan-1 img,
+.plan-2 img,
+.plan-3 img{
+    height: 180px;
+    width: 380px;
+    margin-top: 4px;
+    margin-left: 4px;
+    
+}
+.plan-1 h1,
+.plan-2 h1,
+.plan-3 h1{
+    margin-left: 20px;
+    
+}
+
+.plan-1 p,
+.plan-2 p,
+.plan-3 p{
+    color: gray;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.plan-1 .icon,
+.plan-2 .icon,
+.plan-3 .icon{
+  display: flex;
+  justify-content: space-between; /* clock left, user right */
+  align-items: center;
+  margin-left: 20px; /* shifts whole row 20px */
+  margin-right: 20px; /* optional, keeps space on right */
+}
+
+.plan-1 .icon-1, .icon-2,
+.plan-2 .icon-1, .icon-2,
+.plan-3 .icon-1, .icon-2{
+  display: flex;
+  align-items: center;
+  gap: 0; /* space between icon and text */
+  margin-top: 10px;
+}
+
+.plan-1 .icon-1 p,
+.plan-2 .icon-1 p,
+.plan-3 .icon-1 p{
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+.plan-1 .icon-2 p,
+.plan-2 .icon-2 p,
+.plan-3 .icon-2 p
+{
+    margin-bottom: 6px;
+    margin-left: 5px;
+    margin-right: 8px;
+   
+}
+
+.plan-1 .icon-2 .fa-solid,
+.plan-2 .icon-2 .fa-solid,
+.plan-3 .icon-2 .fa-solid{
+    margin-left: 60px;
+}
+
+.plan-1 h3,
+.plan-2 h3,
+.plan-3 h3{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.plan-1 ul,
+.plan-2 ul, 
+.plan-3 ul{
+  list-style: none;       /* remove default bullets */
+  padding-left: 20px;     /* keep indentation */
+}
+
+.plan-1 ul li,
+.plan-2 ul li,
+.plan-3 ul li{
+  position: relative;
+  color: gray;            /* text color */
+  margin-bottom: 6px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.plan-1 ul li::before,
+.plan-2 ul li::before,
+.plan-3 ul li::before{
+  content: "•";           /* custom bullet */
+  position: absolute;
+  left: -15px;            /* adjust spacing */
+  color: blue;            /* bullet color */
+  font-size: 21px;        /* bullet size */
+ 
+}
+.plan-1 h4,
+.plan-2 h4,
+.plan-3 h4{
+    color: blue;
+    margin-left: 22px;
+}
+
+
+.plan-1 .cost .amt,
+.plan-2 .cost .amt,
+.plan-3 .cost .amt{
+    color: blue;
+    font-size: 40px;
+
+}
+.plan-1 .book,
+.plan-2 .book,
+.plan-3 .book{
+    background: linear-gradient(skyblue,violet);
+    color: black;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+/* plan 2 */
+
+.plan-2{
+    border: 1px solid gray;
+    width: 400px;
+    height: 625px;
+    margin-top: 100px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.plan-3{
+    border: 1px solid gray;
+    width: 400px;
+    height: 625px;
+    margin-top: 100px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+/* second div */
+
+
+.all-tour-2{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    gap: 15px;
+
+}
+.plan-4{
+    border: 1px solid gray;
+    width: 400px;
+    height: 625px;
+    margin-top: 100px;
+    border-radius: 7px;
+}
+
+.plan-5{
+    border: 1px solid gray;
+    width: 400px;
+    height: 625px;
+    margin-top: 100px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.plan-6{
+    border: 1px solid gray;
+    width: 400px;
+    height: 625px;
+    margin-top: 100px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.plan-4 img,
+.plan-5 img,
+.plan-6 img{
+    height: 180px;
+    width: 380px;
+    margin-top: 4px;
+    margin-left: 4px;
+    
+}
+.plan-4 h1,
+.plan-5 h1,
+.plan-6 h1{
+    margin-left: 20px;
+    
+}
+
+.plan-4 p,
+.plan-5 p,
+.plan-6 p{
+    color: gray;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.plan-4 .icon,
+.plan-5 .icon,
+.plan-6 .icon{
+  display: flex;
+  justify-content: space-between; /* clock left, user right */
+  align-items: center;
+  margin-left: 20px; /* shifts whole row 20px */
+  margin-right: 20px; /* optional, keeps space on right */
+}
+
+.plan-4 .icon-1, .icon-2,
+.plan-5 .icon-1, .icon-2,
+.plan-6 .icon-1, .icon-2{
+  display: flex;
+  align-items: center;
+  gap: 0; /* space between icon and text */
+  margin-top: 10px;
+}
+
+.plan-4 .icon-1 p,
+.plan-5 .icon-1 p,
+.plan-6 .icon-1 p{
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+.plan-4 .icon-2 p,
+.plan-5 .icon-2 p,
+.plan-6 .icon-2 p
+{
+    margin-bottom: 6px;
+    margin-left: 5px;
+    margin-right: 8px;
+   
+}
+
+.plan-4 .icon-2 .fa-solid,
+.plan-5 .icon-2 .fa-solid,
+.plan-6 .icon-2 .fa-solid{
+    margin-left: 60px;
+}
+
+.plan-4 h3,
+.plan-5 h3,
+.plan-6 h3{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.plan-4 ul,
+.plan-5 ul, 
+.plan-6 ul{
+  list-style: none;       /* remove default bullets */
+  padding-left: 20px;     /* keep indentation */
+}
+
+.plan-4 ul li,
+.plan-5 ul li,
+.plan-6 ul li{
+  position: relative;
+  color: gray;            /* text color */
+  margin-bottom: 6px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.plan-4 ul li::before,
+.plan-5 ul li::before,
+.plan-6 ul li::before{
+  content: "•";           /* custom bullet */
+  position: absolute;
+  left: -15px;            /* adjust spacing */
+  color: blue;            /* bullet color */
+  font-size: 21px;        /* bullet size */
+ 
+}
+.plan-4 h4,
+.plan-5 h4,
+.plan-6 h4{
+    color: blue;
+    margin-left: 22px;
+}
+
+
+.plan-4 .cost .amt,
+.plan-5 .cost .amt,
+.plan-6 .cost .amt{
+    color: blue;
+    font-size: 40px;
+
+}
+.plan-4 .book,
+.plan-5 .book,
+.plan-6 .book{
+    background: linear-gradient(skyblue,violet);
+    color: black;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+/* adventure */
+
+.adventure h1{
+    margin-top: 125px;
+    font-size: 50px;
+    color: white;
+    margin-left: 300px;
+    margin-bottom: 40px;
+}
+
+.adventure p{
+    color: gray;
+    font-size: 20px;
+    margin-left: 350px;
+   
+}
+.adventure .p1{
+    margin-left: 550px;
+}
+
+.adventure .btn-1{
+    width: 200px;
+    height: 50px;
+    color: black;
+    background: linear-gradient(skyblue,violet);
+    margin-left: 450px;
+    font-size: 17px;
+    border-radius: 9px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.adventure .btn-2{
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 9px;
+    border: 1px solid gray;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.footer {
+  background-color: black;
+  width: 1293px;         /* full width instead of fixed px */
+  height: 90px;
+  position: absolute;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between; /* space between left & right content */
+  align-items: center;            /* vertically center items */
+  padding: 0 40px;                /* space from edges */
+}
+
+.footer p {
+  font-size: 20px;
+  color: white;
+  margin: 0; /* remove default margin */
+}
+
+.footer-copy {
+  display: flex;   /* make it a flex container */
+  gap: 20px;       /* gap between items */
+}
